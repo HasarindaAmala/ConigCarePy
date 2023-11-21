@@ -74,7 +74,7 @@ def process_word(name:str):
 
     if len(frames) > 0:
         # Repeat the first frame a few times at the beginning for a smooth start
-        repetitions = 1  # Adjust the number of repetitions as needed
+        repetitions = 5  # Adjust the number of repetitions as needed
         initial_frames = [frames[0]] * repetitions
         frames = initial_frames + frames
 

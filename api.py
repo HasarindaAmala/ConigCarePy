@@ -1,10 +1,8 @@
 import tempfile
-import os
 import numpy as np
 import pyrebase
 import requests
 from io import BytesIO
-from moviepy.editor import ImageSequenceClip
 from PIL import Image
 from starlette.responses import FileResponse
 
